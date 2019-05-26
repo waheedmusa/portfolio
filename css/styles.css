@@ -16,3 +16,10 @@ font-family: 'Montserrat', sans-serif;
 font-size: 200px;
 text-align: right;
 }
+.par3{
+font-weight: lighter;
+text-align: left;
+margin-left: 100px;
+padding-left: 160px;
+font-size: 29px;
+}
