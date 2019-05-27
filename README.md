@@ -7,5 +7,7 @@ This is my portfolio and in it you will find out all about me and the proojrcts 
 * atom .
 ## Technologies Used
 I simply used HTML and CSS to make this project.
+## Contributor
+I am the only contributor to this project.
 ### License
 MIT
