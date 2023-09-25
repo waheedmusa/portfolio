@@ -1,0 +1,42 @@
+export const data = [
+  {
+    id: 0,
+    title: "ONE SHOT",
+    img: "./images/oneshot.png",
+    info: "A web app that lets you search and discover films.",
+    liveurl: "https://waheedmusa.github.io/MovieReel/",
+    sourceurl: "https://github.com/waheedmusa/one-shot",
+  },
+  {
+    id: 1,
+    title: "ABNER",
+    img: "./images/abner.png",
+    info: "A company website made for a client.",
+    liveurl: "https://abnerafrica.org/",
+    sourceurl: "/",
+  },
+  {
+    id: 2,
+    title: "JIWE ESPORTS",
+    img: "./images/jiwe.png",
+    info: "Website made for an esports organization.",
+    liveurl: "https://esports.jiwe.io/",
+    sourceurl: "/",
+  },
+  {
+    id: 3,
+    title: "NUMBER GUESSER",
+    img: "./images/number-guess.png",
+    info: "A very fun number guessing game.",
+    liveurl: "https://harmonious-genie-97a444.netlify.app",
+    sourceurl: "https://github.com/waheedmusa/number-guesser",
+  },
+  {
+    id: 4,
+    title: "DICE GAME",
+    img: "./images/dice-game.png",
+    info: "A very fun two-player dice game.",
+    liveurl: "https://jovial-moonbeam-718e54.netlify.app",
+    sourceurl: "https://github.com/waheedmusa/dice-game",
+  },
+];

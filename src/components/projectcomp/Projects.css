@@ -1,0 +1,71 @@
+.project__container {
+  width: 90%;
+  padding: 40px;
+  margin-top: 80px;
+}
+
+.projectcard__container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.projectcard__img__container {
+  width: 648px;
+  height: 160px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.projectcard__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.projectcard__img__container:hover .projectcard__img,
+.projectcard__img__container:focus .projectcard__img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  filter: none;
+}
+
+.projectcard__desc {
+  font-family: "Maven Pro", sans-serif;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .project__container {
+    margin-left: -20px;
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .projectcard__container {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .projectcard__img__container {
+    width: 300px;
+    height: 160px;
+  }
+
+  .projectcard__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project__container {
+    margin-top: 40px;
+  }
+  .projectcard__img__container {
+    width: 430px;
+    height: 140px;
+  }
+}

@@ -1,0 +1,32 @@
+.work__group {
+  width: 90%;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.work__title__arrow {
+  -webkit-transform: rotate(45deg) scale(0.6);
+  transform: rotate(45deg) scale(0.6);
+  margin-bottom: -33px;
+  margin-left: -10px;
+}
+
+@media screen and (max-width: 550px) {
+  .work__group h1 {
+    font-size: 3rem;
+  }
+
+  .work__title__arrow {
+    margin-bottom: -17px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .work__group h1 {
+    font-size: 85px;
+  }
+
+  .work__title__arrow {
+    margin-bottom: -25px;
+  }
+}

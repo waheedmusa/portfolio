@@ -1,0 +1,45 @@
+nav {
+  /* display: flex;
+  justify-content: flex-end;
+  padding: 1rem 4rem;
+  margin-bottom: 20px; */
+  overflow: hidden;
+  /* background-color: #333; */
+  background: linear-gradient(180deg, #000, rgba(22, 22, 22, 0));
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav ul {
+  display: flex;
+  float: right;
+  list-style: none;
+  padding: 14px 16px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+nav li {
+  padding-left: 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+svg {
+  margin-bottom: -3px;
+}
+
+@media screen and (max-width: 550px) {
+  nav li {
+    font-size: 13px;
+  }
+}

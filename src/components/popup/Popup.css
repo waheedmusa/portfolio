@@ -1,0 +1,185 @@
+.popup {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.popup__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup__img {
+  height: 100vh;
+  width: 100vw;
+}
+
+.popup__img img {
+  width: 100%;
+}
+.popup__inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  padding: 100px;
+  background-color: #000;
+}
+
+.close__btn {
+  position: absolute;
+  top: 160px;
+  right: 170px;
+  z-index: 9999;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.popup__inner .close__btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.popup__text {
+  height: 100vh;
+  width: 100vw;
+}
+
+.popup__text h3 {
+  padding: 70px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.popup__text p {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.realPopup__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.click__btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 70px;
+}
+
+.click__btns a {
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 105px;
+  height: 40px;
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.click__btns a:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 550px) {
+  .popup__container {
+    flex-direction: column-reverse;
+  }
+  .popup__inner {
+    padding: 0;
+  }
+  .popup__img {
+    width: 100%;
+    height: 100%;
+    margin-top: -140px;
+  }
+
+  .popup__text {
+    width: 100%;
+    height: 40%;
+  }
+
+  .popup__text h3 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .popup__text p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-top: -30px;
+  }
+  .click__btns {
+    gap: 50px;
+    margin-top: 80px;
+  }
+
+  .click__btns a {
+    padding: 5px 10px;
+    width: 90px;
+    font-size: 15px;
+    padding-top: 11px;
+  }
+  .close__btn {
+    position: absolute;
+    top: -100px;
+    right: 15px;
+    width: 90px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .popup__container {
+    flex-direction: column-reverse;
+  }
+  .click__btns a {
+    padding: 5px 10px;
+    width: 90px;
+    font-size: 15px;
+    padding-top: 11px;
+  }
+  .close__btn {
+    position: absolute;
+    top: 350px;
+    right: 150px;
+    width: 90px;
+    font-size: 17px;
+  }
+  .popup__img {
+    width: 100%;
+    height: 100%;
+  }
+  .popup__img img {
+    object-fit: cover;
+  }
+}

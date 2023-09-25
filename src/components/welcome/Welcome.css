@@ -1,0 +1,75 @@
+.welcome__group {
+  width: 90%;
+  padding: 40px;
+}
+
+.job__arrow {
+  position: relative;
+  fill: #fff;
+  bottom: -2px;
+  -webkit-transform: scale(1.5) rotate(-45deg);
+  transform: scale(1.5) rotate(-45deg);
+}
+
+.welcome__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.welcome__text h3 {
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 25px;
+  margin-right: 205px;
+}
+
+.welcome__info {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 10px;
+  width: 80%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 550px) {
+  .welcome__group {
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .head_1,
+  .head_2 {
+    font-size: 35px;
+  }
+
+  .welcome__text {
+    justify-content: flex-start;
+  }
+
+  .welcome__text h3 {
+    font-size: 15px;
+    margin-right: 28px;
+  }
+
+  .welcome__info {
+    font-weight: 400;
+    font-size: 17px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .welcome__group {
+    margin-top: 50px;
+  }
+  .head_1,
+  .head_2 {
+    font-size: 85px;
+  }
+  .welcome__text h3 {
+    margin-right: 10px;
+  }
+}
