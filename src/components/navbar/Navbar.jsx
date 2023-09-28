@@ -14,7 +14,7 @@ export const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            RESUME
+            CV
             <svg
               stroke="currentColor"
               fill="currentColor"
