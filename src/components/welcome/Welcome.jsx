@@ -5,7 +5,7 @@ export const Welcome = () => {
   return (
     <div className="welcome__group">
       <h1 className="head_1">HELLO,</h1>
-      <h1 className="head_1">I'M ABDULWAHEED</h1>
+      <h1 className="head_1">I'M ABDULWAHID</h1>
       <div className="welcome__text">
         <svg
           className="job__arrow"
@@ -27,8 +27,8 @@ export const Welcome = () => {
         <h3>FRONTEND DEVELOPER</h3>
       </div>
       <p className="welcome__info">
-        Hi there! My name is Abdulwaheed Musa, I am a front-end web developer
-        and UI/UX designer based in Nairobi, Kenya.
+        Hi there! My name is Abdulwahid Musa, I am a front-end web developer and
+        UI/UX designer based in Nairobi, Kenya.
       </p>
     </div>
   );

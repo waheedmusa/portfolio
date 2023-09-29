@@ -11,17 +11,17 @@
   margin-left: -10px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
   .work__group h1 {
-    font-size: 3rem;
+    font-size: 35px;
   }
 
   .work__title__arrow {
-    margin-bottom: -17px;
+    margin-bottom: -11px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .work__group h1 {
     font-size: 85px;
   }

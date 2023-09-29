@@ -23,7 +23,7 @@
   margin-left: -10px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
   .contact__container {
     margin-top: 0px;
     padding: 20px;
@@ -40,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .contact__tile,
   h1 {
     font-size: 75px;

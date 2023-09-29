@@ -2,6 +2,10 @@
   width: 90%;
   padding: 40px;
 }
+/* .head_1,
+.head_2 {
+  font-size: 5px;
+} */
 
 .job__arrow {
   position: relative;
@@ -35,7 +39,7 @@
   margin-top: 50px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
   .welcome__group {
     padding: 20px;
     margin-top: 50px;
@@ -67,9 +71,14 @@
   }
   .head_1,
   .head_2 {
-    font-size: 85px;
+    font-size: 35px;
   }
   .welcome__text h3 {
     margin-right: 10px;
+  }
+  .welcome__info {
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: -6px;
   }
 }

@@ -4,7 +4,7 @@ export const data = [
     title: "ONE SHOT",
     img: "./images/oneshot.png",
     info: "A web app that lets you search and discover films.",
-    liveurl: "https://waheedmusa.github.io/MovieReel/",
+    liveurl: "https://waheedmusa.github.io/one-shot/",
     sourceurl: "https://github.com/waheedmusa/one-shot",
   },
   {
